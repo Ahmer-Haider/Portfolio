@@ -4,7 +4,7 @@ const TypingEffect = ({
   strings, 
   typeSpeed = 75, 
   pauseBeforeNext = 500,
-  pauseBeforeRepeat = 2000 
+  pauseBeforeRepeat = 1000 
 }) => {
   const [completedLines, setCompletedLines] = useState([]);
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
